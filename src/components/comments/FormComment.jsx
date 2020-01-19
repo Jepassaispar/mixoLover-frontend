@@ -15,7 +15,7 @@ const AddComment = props => {
   useEffect(() => {
     if (currentUser)
       Setuser({ photo: currentUser.photo, name: currentUser.name });
-    console.log(props.UserId);
+    // console.log(props.UserId);
   }, []);
 
   useEffect(() => {
@@ -55,6 +55,7 @@ const AddComment = props => {
       .then(res => {
         setOldMessages([...oldMessages, res.data]);
         inputComment.current.value = "";
+        console.log(oldMessages);
       })
       .catch(err => {
         console.log(err);
@@ -63,7 +64,7 @@ const AddComment = props => {
 
   return (
     <div className="newComment">
-      {console.log(message)}
+      {/* {console.log(message)} */}
       <form className="formComment" onSubmit={handleSubmit}>
         {currentUser ? (
           <>

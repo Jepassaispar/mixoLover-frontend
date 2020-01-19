@@ -1,0 +1,6 @@
+{"_id":{"$oid":"5df39f4ce7179a3015b2aa59"},"name":"Bitter"}
+{"_id":{"$oid":"5df39f60e7179a3015b2aa5b"},"name":"Sweet"}
+{"_id":{"$oid":"5df39f78e7179a3015b2aa5c"},"name":"Strong"}
+{"_id":{"$oid":"5df39f90e7179a3015b2aa6d"},"name":"Sour"}
+{"_id":{"$oid":"5df39fc8e7179a3015b2aa8c"},"name":"Soft"}
+{"_id":{"$oid":"5df3a001e7179a3015b2aaaa"},"name":"Fruity"}
